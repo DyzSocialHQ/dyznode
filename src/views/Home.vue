@@ -4,21 +4,21 @@
     <main class="aucto-owners">
       <h1 class="section-heading">
         <i class="fas fa-bolt icon"></i> Network Status:
-        <span class="icon">Active</span>
+        <span class="icon">Pending</span>
       </h1>
 
       <section class="statistics">
         <section class="statistic">
-          <h2 class="statistic__title">Total AuctoNodes:</h2>
+          <h2 class="statistic__title">Total Dyzrupt Stakers:</h2>
           <p class="statistic__stat">{{ auctoNodeOwnersCount }}</p>
         </section>
         <section class="statistic">
-          <h2 class="statistic__title">Staked Auct Token:</h2>
+          <h2 class="statistic__title">Dyzrupt Staking Pool Size:</h2>
           <p class="statistic__stat">{{ totalStakedAuctTokens | currency(' ')}}</p>
         </section>
         <section class="statistic">
-          <h2 class="statistic__title">Shared Revenue:</h2>
-          <p class="statistic__stat">{{sharedRevenue}} WAVES</p>
+          <h2 class="statistic__title">Reward ATH:</h2>
+          <p class="statistic__stat">{{sharedRevenue}} Dyzrupt</p>
         </section>
         <section class="statistic">
           <h2 class="statistic__title">Next Payout:</h2>
@@ -27,18 +27,18 @@
       </section>
 
       <h1 class="section-heading" style="margin-bottom: 1rem">
-        <i class="fas fa-users icon"></i> AuctoNode Explorer
+        <i class="fas fa-users icon"></i> Dyznode Explorer
       </h1>
       <section class="auct-node">
         <section class="header">
           <h2 class="header__title">Address</h2>
-          <h2 class="header__title">Quantity</h2>
-          <h2 class="header__title" id="kyc-status">KYC Status</h2>
+          <h2 class="header__title">Pool Size</h2>
+          <h2 class="header__title" id="kyc-status">Staking status</h2>
         </section>
         <section
           v-if="!auctoNodeOwners.length"
           class="loading"
-        >AuctoNode is fetching owners. Please wait..</section>
+        >Dyznode is fetching owners. Please wait..</section>
         <section class="body" else>
           <section v-for="(auct, index) in auctoNodeOwners" :key="index" class="items">
             <section class="item">
@@ -70,7 +70,7 @@
                   target="_blank"
                 >{{auct.address | truncate(30)}}</a>
               </p>
-              <p class="quantity">{{ auct.quantity | currency(' ')}} Auct Token</p>
+              <p class="quantity">{{ auct.quantity | currency(' ')}} DYZ Token</p>
 
               <section class="mobile-auctonode__footer">
                 <p class="kyc-status">
@@ -89,7 +89,7 @@
       </section>
       <footer>
         <section>
-          <h3 class="footer">AuctoNode &copy; {{ getCurrentYear() }}</h3>
+          <h3 class="footer">Dyznode &copy; {{ getCurrentYear() }}</h3>
           <br />
           <ul>
             <li>
@@ -98,7 +98,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.auctionlance.com">
+              <a href="https://www.dyzrupt.ltd/">
                 <i class="fas fa-globe"></i> Our Website
               </a>
             </li>
@@ -114,27 +114,27 @@
         <section>
           <ul class="social">
             <li>
-              <a href="https://t.me/auctionlance">
+              <a href="http://t.me/DYZchat">
                 <i class="fab fa-telegram"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com/auctionlance">
+              <a href="https://facebook.com/dyzrupt">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/aucttoken">
+              <a href="https://twitter.com/dyzrupt">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/auctionlance">
+              <a href="https://github.com/Dyzrupt-A1-dApp">
                 <i class="fab fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="https://youtube.com/auctionlance">
+              <a href="https://www.youtube.com/channel/UCkBRapdM9TUlvdIIL0t4ULg/featured?view_as=public">
                 <i class="fab fa-youtube"></i>
               </a>
             </li>
