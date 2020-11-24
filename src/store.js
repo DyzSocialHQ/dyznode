@@ -128,7 +128,7 @@ export default new Vuex.Store({
           // Filtering to only get Auctonode owners
           const auctoNodeOwners = auctTokenHolders
             .filter(auct => {
-              return auct.quantity >= 1000000;
+              return auct.quantity >= 10;
             })
             .sort(function(a, b) {
               return b.quantity - a.quantity;
