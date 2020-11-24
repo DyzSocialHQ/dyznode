@@ -13,7 +13,7 @@
           <p class="statistic__stat">{{ auctoNodeOwnersCount }}</p>
         </section>
         <section class="statistic">
-          <h2 class="statistic__title">Dyzrupt Staking Pool Size:</h2>
+          <h2 class="statistic__title">Staking Pool Size:</h2>
           <p class="statistic__stat">{{ totalStakedAuctTokens | currency(' ')}}</p>
         </section>
         <section class="statistic">
