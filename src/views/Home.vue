@@ -48,7 +48,7 @@
                   target="_blank"
                 >{{auct.address | truncate(30)}}</a>
               </p>
-              <p class="item__content">{{ auct.quantity | currency(' ')}} Auct Token</p>
+              <p class="item__content">{{ auct.quantity | currency(' ')}} Dyzrupt Token</p>
             </section>
 
             <p class="kyi-status">

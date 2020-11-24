@@ -40,7 +40,7 @@ export default {
     },
     created() {
         this.$toasted.error(
-                "Only AuctoNode Owners with access code can access this DApp",{
+                "Only Dyznode Owners with access code can access this DApp",{
                 icon : {
                     name: "fa-exclamation-circle"
                 }
