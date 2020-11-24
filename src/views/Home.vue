@@ -9,7 +9,7 @@
 
       <section class="statistics">
         <section class="statistic">
-          <h2 class="statistic__title">Total Dyzrupt Stakers:</h2>
+          <h2 class="statistic__title">Total Dyzrupt Holders:</h2>
           <p class="statistic__stat">{{ auctoNodeOwnersCount }}</p>
         </section>
         <section class="statistic">
