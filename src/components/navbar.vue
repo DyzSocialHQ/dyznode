@@ -64,7 +64,7 @@ export default {
 }
 nav {
     font-family: 'Share Tech', sans-serif;
-    $primary-color: #E21250;
+    $primary-color: #372145;
     $secondary-color: darken($primary-color, 10%);
     display: flex;
     justify-content: space-evenly;

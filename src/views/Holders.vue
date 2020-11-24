@@ -28,7 +28,7 @@ export default {
 <style scoped>
 div {
   padding: 3em 2em;
-  background-color: #e21250;
+  background-color: #372145;
   color: #fff;
 }
 h1 {

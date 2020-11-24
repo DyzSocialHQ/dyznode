@@ -33,7 +33,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-$primary-color: #E21250;
+$primary-color: #372145;
 $secondary-color: darken($primary-color, 10%);
 .sidebar {
 position: fixed;

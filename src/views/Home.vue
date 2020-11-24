@@ -198,7 +198,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$primary-color: #e21250;
+$primary-color: #372145;
 $secondary-color: darken($primary-color, 10%);
 main {
   font-family: "Share Tech", sans-serif;
