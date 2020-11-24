@@ -93,7 +93,7 @@
           <br />
           <ul>
             <li>
-              <a href="https://t.me/auctionlance">
+              <a href="http://t.me/DYZchat">
                 <i class="fas fa-futbol"></i> Need help?
               </a>
             </li>
@@ -104,7 +104,7 @@
             </li>
             <li>
               <a
-                href="https://forum.wavesplatform.com/t/auctionlance-platform-hire-and-pay-freelancers-with-crypto/10850"
+                href="https://www.youtube.com/channel/UCkBRapdM9TUlvdIIL0t4ULg/featured?view_as=public"
               >
                 <i class="fas fa-question-circle"></i> How It Works
               </a>
