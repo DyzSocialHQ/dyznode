@@ -1,7 +1,7 @@
 <template>
     <nav>
         <section class="brand">
-            <h3><router-link to="/" class="brand__link">AuctoNode</router-link></h3>
+            <h3><router-link to="/" class="brand__link">DyzNode</router-link></h3>
         </section>
         <section class="search">
             <input type="text"  placeholder="Search AuctoNode Owners" class="search__box"/>
