@@ -6,8 +6,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     isLoggedIn: JSON.parse(localStorage.getItem("isLoggedIn")) || false,
-    auctAssetId: "53VHGAEfVNJnByeMbu9r4DsxXoBz3TecQfWpYXAsZmzh",
-    auctAddress: "3P7H2Zqt4NK3J5Q2wF8gjcLw9187gC1bbAG",
+    auctAssetId: "dACACFaoLaRMNGocg5aas4Md9aFP8jdAbLJvF5rqqrV",
+    auctAddress: "3P2XCb2HwmaEG1zBunzjNq6XNQWmm5Me2sJ",
     wctAssetId: "DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J",
     currentLoggedInUser:
       JSON.parse(localStorage.getItem("wavesKeeperData")) || {},
