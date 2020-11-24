@@ -24,7 +24,7 @@
                     <router-link to="/dashboard" class="mobile__btn" v-if="isLoggedIn"><i class="fas fa-tachometer-alt"></i> Dashboard</router-link>
                 </li>
                 <li  class="mobile-nav-item">
-                    <a href="https://client.wavesplatform.com/dex?assetId1=WAVES&assetId2=53VHGAEfVNJnByeMbu9r4DsxXoBz3TecQfWpYXAsZmzh" target="_blank" class="mobile__btn"><i class="fas fa-coins"></i> Buy DYZRUPT token</a>
+                    <a href="https://waves.exchange/trade/dACACFaoLaRMNGocg5aas4Md9aFP8jdAbLJvF5rqqrV_USDT" target="_blank" class="mobile__btn"><i class="fas fa-coins"></i> Buy DYZRUPT token</a>
                 </li>
                 <li class="mobile-nav-item">
                     <a href="#" @click.prevent="performWavesKeeperLogin" class="mobile__btn" v-if="!isLoggedIn"><i class="fas fa-sign-in-alt"></i> Login</a>
