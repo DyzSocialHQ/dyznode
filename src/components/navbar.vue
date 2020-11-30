@@ -13,7 +13,7 @@
             <router-link to="/auctoboard" class="login__btn" v-if="isLoggedIn">Auctoboard</router-link>
         </section>
         <section class="login" v-if="!isLoggedIn">
-            <a href="#" @click.prevent="performWavesKeeperLogin" class="login__btn">Login</a>
+            <a href="https://play.google.com/store/apps/details?id=com.dyzrupt.mobile" class="login__btn">Get App</a>
         </section>
         <section class="mobile-nav">
             <ul class="mobile-nav-list">
