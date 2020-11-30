@@ -4,7 +4,7 @@
     <main class="aucto-owners">
       <h1 class="section-heading">
         <i class="fas fa-bolt icon"></i> Network Status:
-        <span class="icon">Pending</span>
+        <span class="icon">Running</span>
       </h1>
 
       <section class="statistics">
