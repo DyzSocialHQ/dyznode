@@ -3,9 +3,9 @@
         <section class="brand">
             <h3><router-link to="/" class="brand__link">DyzNode</router-link></h3>
         </section>
-        <section class="search">
+        <!-- <section class="search">
             <input type="text"  placeholder="Search Dyznode Owners" class="search__box"/>
-        </section>
+        </section> -->
         <section class="login" style="margin-right: -60px">
             <a href="https://waves.exchange/trading/spot/dACACFaoLaRMNGocg5aas4Md9aFP8jdAbLJvF5rqqrV_USDT" target="_blank" class="login__btn"><i class="fas fa-coins"></i> Buy DYZRUPT token</a>
         </section>
