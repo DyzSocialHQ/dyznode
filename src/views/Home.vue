@@ -56,7 +56,7 @@
                 <i class="fa fa-certificate"></i>
               </span>
               {{ auct.status }}
-            </p>            
+            </p>
           </section>
         </section>
         <section class="mobile-auctonode" else>
@@ -76,10 +76,7 @@
                     <i class="fa fa-certificate"></i>
                   </span>
                   {{ auct.status }}
-                </p>
-                <p>
-                  <a href class="mobile-vote">Vote</a>
-                </p>
+                </p>                
               </section>
             </section>
           </section>
