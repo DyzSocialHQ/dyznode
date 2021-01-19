@@ -56,9 +56,7 @@
                 <i class="fa fa-certificate"></i>
               </span>
               {{ auct.status }}
-            </p>
-
-            <router-link :to="'vote/' + auct.address" class="vote">Vote</router-link>
+            </p>            
           </section>
         </section>
         <section class="mobile-auctonode" else>
